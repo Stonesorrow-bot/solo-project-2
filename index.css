@@ -1,0 +1,89 @@
+body {
+    margin: auto;
+    text-align: center;
+    max-width: 300px;
+    color: white;
+    background: url(https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=1305&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.main-item {
+    font-size: 35px;
+    margin-bottom: 0px;
+    
+    
+}
+
+.score-point {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 50px;
+    padding: 20px 0px 15px;
+    border: 1px solid whitesmoke;
+    border-radius: 6px;
+    color: red;
+    background-color: black;
+    margin: 20px auto;
+    
+}
+
+.miscell {
+    
+    background-color: #1b244a;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 10px 10px;
+    box-shadow: none;   
+   
+}
+
+.miscell:hover {
+     background-color: white;
+     color: black;
+     box-shadow: none;
+     
+     
+}
+
+.miscell:active {
+    box-shadow: 2px 1px 1px gray;
+}
+
+.miscell:focus {
+    outline: none;
+}
+
+#new-game {
+    margin-top: 20px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border: 1px solid white;
+    padding: 10px 20px 8px;
+    color: white;
+    font-weight: bolder;
+    background-color: black;
+}
+
+#new-game:hover {
+    color: red;
+    
+}
+
+#new-game:active {
+    box-shadow: 0px 0px 6px red;
+    font-size: larger;
+}
+
+#new-game:focus {
+    outline: none;
+}
